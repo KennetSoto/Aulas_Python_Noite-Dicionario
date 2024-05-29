@@ -26,6 +26,14 @@ pessoa = {
     "Empresa": input("Digite a empresa: ")
 }
 
+#acessando chave e valor dentro da chave no loop
 print('\nDados do usuário')
 for chave, valor in pessoa.items():
     print(f"{chave}: {valor}")
+
+
+#acessando chave no loop e depois o valor dentro da chave
+# print('\nDados do usuário')
+# for chave in pessoa:
+#     print(f"{chave}: {pessoa[chave]}")
+
